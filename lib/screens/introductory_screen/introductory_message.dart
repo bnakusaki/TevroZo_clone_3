@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:tevrozoclone3/screens/purchase_screen/purchase_scree.dart';
+import 'package:tevrozoclone3/screens/items_screen/items_screen.dart';
 
 class IntroductoryMessage extends StatelessWidget {
   const IntroductoryMessage({
@@ -35,19 +35,18 @@ class IntroductoryMessage extends StatelessWidget {
           FilledButton(
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => const PurchaseScreen(),
+                builder: (context) => const ItemsScreen(),
               ));
             },
             style: FilledButton.styleFrom(
               backgroundColor: Theme.of(context).colorScheme.scrim,
-              foregroundColor: Theme.of(context).colorScheme.tertiaryContainer,
               shape: ContinuousRectangleBorder(borderRadius: BorderRadius.circular(30)),
               fixedSize: const Size(double.maxFinite, 50),
             ),
             child: Text(
               l10n.getStartedButtonLable,
               style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                    color: Theme.of(context).colorScheme.tertiaryContainer,
+                    color: Theme.of(context).colorScheme.primary,
                   ),
             ),
           )

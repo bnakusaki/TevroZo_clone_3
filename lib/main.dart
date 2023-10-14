@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:tevrozoclone3/core/theme.dart';
-import 'package:tevrozoclone3/screens/home_screen/home_screen.dart';
+import 'package:tevrozoclone3/screens/introductory_screen/introductory_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       ],
       locale: const Locale('en'),
       theme: theme,
-      home: const HomeScreen(),
+      home: const IntroductoryScreen(),
     );
   }
 }

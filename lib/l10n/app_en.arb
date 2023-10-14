@@ -1,5 +1,19 @@
 {
+    "brand": "Shoop",
     "introMessage": "Take a look at what's\nnew this week",
     "introSubMessage": "Take a look at what's new this week",
-    "getStartedButtonLable": "Get Started"
+    "getStartedButtonLable": "Get Started",
+    "promoMsg1": "Cashback 10% + Delivery Discount",
+    "promoMsg2": "H&M - Buy 3 get 40% Discount",
+    "whatsNew": "Take a look at what is new this week",
+    "featuredItems": "FEATURED ITEMS",
+    "purchaseItemName": "Regular Fit Oxford Shirt",
+    "purchaseItemType": "H&M, men shirt",
+    "selectSize": "Select Size",
+    "sizeGuide": "Size guide",
+    "buyOne": "Buy one",
+    "filter": "Filter",
+    "filterdescription": "Select options to dig more",
+    "colors": "Colors",
+    "showAdvancedFilter": "Show advanced filter"
 }
